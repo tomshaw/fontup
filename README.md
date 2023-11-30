@@ -13,7 +13,7 @@
 - Temporary font installation and uninstallation on Windows. ⏳
 - Runs asynchronously and is lightning fast. 🏃
 - Error checking to ensure fonts are installed and uninstalled correctly. ✔️
-- Prints colorized table of installed fonts sorted by duration. 🦋
+- Prints neat colorized table of installed fonts sorted by duration. 🦋
 
 ## 🛠️ Usage 🛠️
 
