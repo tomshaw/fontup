@@ -2,6 +2,12 @@
 name = "fontup"
 version = "0.1.0"
 edition = "2021"
+authors = ["Tom Shaw <dev@tomshaw.us>"]
+description = "A cross-platform command line application that makes installing and uninstalling fonts a blast!"
+license = "MIT"
+documentation = "https://docs.rs/fontup"
+homepage = "https://github.com/tomshaw/fontup"
+repository = "https://github.com/tomshaw/fontup"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
