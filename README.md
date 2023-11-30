@@ -58,6 +58,32 @@ fontup --install /path/to/font1.ttf --temp
 fontup --uninstall /path/to/font1.ttf --temp
 ```
 
+### 📁 Font Folders 📁
+
+Installs all the fonts found in specified folder
+
+```shell
+fontup --folder /path/to/folder
+```
+
+## 📦 Dependencies 📦
+
+This utility depends on the following Rust crates:
+
+- `chrono`: 0.4 - Comprehensive support for working with date and time.
+- `colored`: 2.0.4 - Coloring terminal text output.
+- `cli-table`: 0.4.7 - Creating and displaying tables in the command line.
+- `dirs`: 3.0.2 - Finding platform-specific, user-accessible directories.
+- `path-slash`: 0.2.1 - Converting file paths to and from slash paths.
+- `structopt`: 0.3.26 - Handling command line arguments by defining a struct.
+- `ttf-parser`: 0.20.0 - High-level, safe, zero-allocation TrueType font parser.
+- `tokio`: 1 (with full features) - Event-driven, non-blocking I/O platform for writing asynchronous applications.
+
+### Windows Specific Dependencies
+
+- `winapi`: 0.3 (with winuser feature) - Raw FFI bindings to all of Windows API.
+- `winreg`: 0.52.0 - Rust bindings to the Windows Registry API.
+
 ## 🙏 Acknowledgements 🙏
 
 This project uses the [Fira Code](https://github.com/tonsky/FiraCode) font, which is licensed under the SIL Open Font License, Version 1.1.
