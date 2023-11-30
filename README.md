@@ -11,9 +11,9 @@
 
 - Install and uninstall fonts on both Unix-like and Windows systems. 🖥️
 - Temporary font installation and uninstallation on Windows. ⏳
-- Runs asynchronously, and is extremely fast. 🏃
+- Runs asynchronously and is lightning fast. 🏃
 - Error checking to ensure fonts are installed and uninstalled correctly. ✔️
-- Prints sorted duration list of installed fonts in a neat colorized table. 🦋
+- Prints colorized table of installed fonts sorted by duration. 🦋
 
 ## 🛠️ Usage 🛠️
 
@@ -76,7 +76,6 @@ This utility depends on the following Rust crates:
 - `colored`: 2.0.4 - Coloring terminal text output.
 - `cli-table`: 0.4.7 - Creating and displaying tables in the command line.
 - `dirs`: 3.0.2 - Finding platform-specific, user-accessible directories.
-- `path-slash`: 0.2.1 - Converting file paths to and from slash paths.
 - `structopt`: 0.3.26 - Handling command line arguments by defining a struct.
 - `ttf-parser`: 0.20.0 - High-level, safe, zero-allocation TrueType font parser.
 - `tokio`: 1 (with full features) - Event-driven, non-blocking I/O platform for writing asynchronous applications.

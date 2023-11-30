@@ -16,7 +16,6 @@ chrono = "0.4"
 colored = "2.0.4"
 cli-table = "0.4.7"
 dirs = "3.0.2"
-path-slash = "0.2.1"
 structopt = "0.3.26"
 ttf-parser = "0.20.0"
 tokio = { version = "1", features = ["full"] }
