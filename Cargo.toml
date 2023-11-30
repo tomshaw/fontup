@@ -1,0 +1,19 @@
+[package]
+name = "fontup"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+colored = "2.0.4"
+cli-table = "0.4.7"
+dirs = "3.0.2"
+path-slash = "0.2.1"
+structopt = "0.3.26"
+ttf-parser = "0.20.0"
+tokio = { version = "1", features = ["full"] }
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["winuser"] }
+winreg = "0.52.0"
