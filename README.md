@@ -5,13 +5,15 @@
 [![Crates.io](https://img.shields.io/crates/d/fontup.svg)](https://crates.io/crates/fontup)
 [![Crates.io](https://img.shields.io/crates/v/fontup.svg)](https://crates.io/crates/fontup)
 
-**FontUp** is a cross-platform command line application that makes installing and uninstalling fonts a blast! 🌬️
+**FontUp** is a cross-platform command line application that makes installing and uninstalling fonts a blast! 💥
 
 ## 🌟 Features 🌟
 
 - Install and uninstall fonts on both Unix-like and Windows systems. 🖥️
 - Temporary font installation and uninstallation on Windows. ⏳
+- Runs asynchronously, and is extremely fast. 🏃
 - Error checking to ensure fonts are installed and uninstalled correctly. ✔️
+- Prints sorted duration list of installed fonts in a neat colorized table. 🦋
 
 ## 🛠️ Usage 🛠️
 
@@ -19,7 +21,7 @@ First, add FontUp to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-fontup = "0.1.0"
+fontup = "0.1.2"
 ```
 
 ### 📥 Install Fonts 📥

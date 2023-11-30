@@ -1,6 +1,6 @@
 [package]
 name = "fontup"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Tom Shaw <dev@tomshaw.us>"]
 description = "A cross-platform command line application that makes installing and uninstalling fonts a blast!"
